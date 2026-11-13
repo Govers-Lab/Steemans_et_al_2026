@@ -1,0 +1,24 @@
+# Generated from the active pycytominer environment.
+# Python 3.10.12. All listed versions were read from installed distribution metadata.
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+matplotlib==3.10.8
+seaborn==0.13.2
+openpyxl==3.1.5
+pyarrow==23.0.1
+pycytominer==1.4.0
+umap-learn==0.5.11
+numba==0.64.0
+llvmlite==0.46.0
+pynndescent==0.6.0
+phate==2.0.0
+graphtools==2.1.0
+pygsp==0.6.1
+threadpoolctl==3.6.0
+statsmodels==0.14.6
+patsy==1.0.2
+biopython==1.88
+ipykernel==7.2.0
+nbformat==5.11.1
