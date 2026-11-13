@@ -1,6 +1,6 @@
 # Source data and figure reproduction
 
-Keep this `Github` folder beside `Datasets`. Use the `pycytominer` conda environment (Python 3.10) and select its Jupyter kernel. `requirements.txt` records the versions used for the final calculations and validation. Open notebooks from the package root or this folder and run their cells in order. The conservation script resolves its dataset relative to its own location and can run from any directory.
+These notebooks utilize the supplementary datasets associated with the paper. `requirements.txt` records the versions used for the final calculations and validation. Open notebooks from the package root or this folder and run their cells in order.
 
 Scripts display figures and retain the scientific calculations. Default plotting reads only the supplied Excel datasets.
 
@@ -16,7 +16,5 @@ Scripts display figures and retain the scientific calculations. Default plotting
 | 08 Fluorescence phase response | S7: `Plotted_results`, `Replicate_means`, `Single_cells` | 
 | 09 Y-gene omics | S8: `Heatmap data`, `Heatmap columns`, `Measurements`, `Source samples` | 
 | 10 Y-gene conservation | S9: `Protein_status`, `Tree`, `Taxa`, `Proteins`; display settings in script 10 |
-
-The map uses analysis-panel names because final manuscript figure numbering has not been supplied. These nine supplementary workbooks are not a second set of per-figure submission files. Demographs and the optional interactive dashboard are excluded.
 
 The full genome-wide single-cell table is available on request and is not bundled. Its correct basename is `single-cell_profiles_keio_stat.parquet`, for both preprocessing and WT analysis. Notebook 04 accepts generic configurable paths to that file and its annotation workbook.
