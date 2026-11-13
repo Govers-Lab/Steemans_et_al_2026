@@ -2,6 +2,27 @@
 
 These notebooks utilize the supplementary datasets associated with the paper. `requirements.txt` records the versions used for the final calculations and validation. Open notebooks from the package root or this folder and run their cells in order.
 
+## Download the datasets
+
+All nine supplementary Excel workbooks are available in [Datasets](Datasets) and stored with Git Large File Storage (Git LFS):
+
+[S1](Datasets/Dataset%20S1.xlsx) | [S2](Datasets/Dataset%20S2.xlsx) | [S3](Datasets/Dataset%20S3.xlsx) | [S4](Datasets/Dataset%20S4.xlsx) | [S5](Datasets/Dataset%20S5.xlsx) | [S6](Datasets/Dataset%20S6.xlsx) | [S7](Datasets/Dataset%20S7.xlsx) | [S8](Datasets/Dataset%20S8.xlsx) | [S9](Datasets/Dataset%20S9.xlsx)
+
+For an individual workbook, open its link above and use GitHub's **Download raw file** button to download the Excel file.
+
+To download the complete repository with the workbooks, install [Git LFS](https://git-lfs.com/) and run:
+
+```sh
+git lfs install
+git clone https://github.com/Govers-Lab/Steemans_et_al_2026.git
+cd Steemans_et_al_2026
+git lfs pull
+```
+
+If you already cloned the repository, run `git pull` and `git lfs pull` inside it after installing Git LFS. Keep `Datasets` beside `Notebooks` when running the analyses.
+
+## Reproduce the figures
+
 Scripts display figures and retain the scientific calculations. Default plotting reads only the supplied Excel datasets.
 
 | Script | Dataset and principal sheets | | 
